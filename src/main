@@ -1,0 +1,11 @@
+// src/main.cpp
+
+#include <iostream>
+#include "include/simulation.h"
+
+int main() {
+	// Initialize and run the financial-monte-carlo-simulator
+	Simulation sim;
+	sim.run();
+	return 0;
+}

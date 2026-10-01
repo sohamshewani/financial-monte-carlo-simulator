@@ -1,0 +1,8 @@
+// This is a simple Makefile-based test runner script
+// It runs all the unit and integration tests defined in the test suite
+
+all:
+	make test_data_management
+	make test_simulation
+	make test_tax_management
+	make test_reporting
